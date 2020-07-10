@@ -10,24 +10,20 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+   
+     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horinzontal");
-        movement.y = Input.GetAxisRaw("Vertikal");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
     }
 
     void FixedUpdate()
     {
 
-        rb.MovePosition(rb.position+movement * moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
 

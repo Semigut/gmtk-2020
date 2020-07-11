@@ -22,7 +22,16 @@ public class Destroy : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            Score.scoreAmount += 1;
         }
+
+        
+                
+           
+        
     }
 
+    
+      
+    
 }

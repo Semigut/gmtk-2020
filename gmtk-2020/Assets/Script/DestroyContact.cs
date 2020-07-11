@@ -20,14 +20,18 @@ public class DestroyContact : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Enemy"))
         {
+            
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            
         }
 
         if (collision.gameObject.tag.Equals("Friend"))
         {
+            
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            
         }
     }
 

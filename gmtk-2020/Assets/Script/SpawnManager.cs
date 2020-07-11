@@ -17,7 +17,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         spawnAllowed = true;
-        InvokeRepeating("SpawnEnemy", 0f, 3f);
+        InvokeRepeating("SpawnEnemy", 0f, 1f);
         
 
     }

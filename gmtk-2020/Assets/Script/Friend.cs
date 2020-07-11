@@ -10,17 +10,18 @@ public class Friend : MonoBehaviour
     private Vector2 movement;
     private float timeLeft;
 
-    public float lifetime;
+    
 
-   
+    private Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
-        lifetime = Random.Range(3f, 10f);
+        
         // Destroy(gameObject, lifetime);
-        
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
-        
+
     }
 
     // Update is called once per frame
@@ -34,8 +35,11 @@ public class Friend : MonoBehaviour
             timeLeft += accelerationTime;
 
         }
-      
 
+        Vector3 direction = player.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+
+        rbEnemy.rotation = angle;
     }
 
     private void FixedUpdate()

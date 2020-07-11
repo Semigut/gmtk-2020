@@ -1158,7 +1158,7 @@ MonoBehaviour:
   - {fileID: 1754645443}
   - {fileID: 1024332456}
   spawns:
-  - {fileID: 7865957756879364053, guid: e0a9aa9e61edb944189b7a14388193da, type: 3}
+  - {fileID: 8366027462137095657, guid: 27e4d4f42ab463642ad99cbb0f38c33d, type: 3}
   - {fileID: 1678302993661388105, guid: 9ae01074feb3c5b4fa9af28d1b5e34f9, type: 3}
 --- !u!4 &1790595573
 Transform:

@@ -8,22 +8,22 @@ public class FadeOut : MonoBehaviour
     SpriteRenderer rend;
     private float lifetime;
     bool fade = true;
+
+
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
-        lifetime = Random.Range(3f, 15f);
+        lifetime = Random.Range(5f, 15f);
     }
 
     // Update is called once per frame
     void Update()
     {
 
-       /* if (Input.GetKeyDown(KeyCode.V))
-        {
-            StartFading();
+      
 
-        }*/
+       
         if(Time.time >= lifetime)
         {
             
@@ -31,8 +31,9 @@ public class FadeOut : MonoBehaviour
             {
                 StartFading();
                 fade = false;
+                Destroy(gameObject, 0.5f);
             }
-            Destroy(gameObject, lifetime-0.05f);
+            
         }
     }
 
@@ -44,7 +45,7 @@ public class FadeOut : MonoBehaviour
             c.a = f;
             rend.material.color = c;
             yield return new WaitForSeconds(0.05f);
-           
+            
         } 
     }
 

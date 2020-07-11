@@ -12,11 +12,15 @@ public class Friend : MonoBehaviour
 
     public float lifetime;
 
+   
     // Start is called before the first frame update
     void Start()
     {
         lifetime = Random.Range(3f, 10f);
-        Destroy(gameObject, lifetime);
+        // Destroy(gameObject, lifetime);
+        
+
+        
     }
 
     // Update is called once per frame
@@ -28,7 +32,9 @@ public class Friend : MonoBehaviour
 
             movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
             timeLeft += accelerationTime;
+
         }
+      
 
     }
 
@@ -36,6 +42,7 @@ public class Friend : MonoBehaviour
     {
         rbEnemy.AddForce(movement * speed);
     }
+
 
 
 }

@@ -18,7 +18,7 @@ public class DestroyContact : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Enemy"))
+       /* if (collision.gameObject.tag.Equals("Enemy"))
         {
             
             Destroy(collision.gameObject);
@@ -26,7 +26,7 @@ public class DestroyContact : MonoBehaviour
             
         }
 
-       /* if (collision.gameObject.tag.Equals("Friend"))
+        if (collision.gameObject.tag.Equals("Friend"))
         {
             
             Destroy(collision.gameObject);

@@ -40,11 +40,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("BulletEnemy"))
         {
-            Destroy(collision.gameObject);
-            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-            Destroy(effect, 0.35f);
-           
+
+            Leben.liveAmount -= 1;
+
+            if (Leben.liveAmount == 0)
+            {
+                Destroy(collision.gameObject);
+                GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+                Destroy(effect, 0.35f);
+            }
         }
 
 

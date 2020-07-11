@@ -834,6 +834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 1591759371}
+  hitEffect: {fileID: 960455330962535535, guid: 8fb443d5dcc076a4e9e8344926b7e255,
+    type: 3}
 --- !u!50 &1591759371
 Rigidbody2D:
   serializedVersion: 4
@@ -1158,7 +1160,7 @@ MonoBehaviour:
   - {fileID: 1754645443}
   - {fileID: 1024332456}
   spawns:
-  - {fileID: 8366027462137095657, guid: 27e4d4f42ab463642ad99cbb0f38c33d, type: 3}
+  - {fileID: 7086626844086526535, guid: 9bd9d3ce6399a694a99b34fdbb907679, type: 3}
   - {fileID: 1678302993661388105, guid: 9ae01074feb3c5b4fa9af28d1b5e34f9, type: 3}
 --- !u!4 &1790595573
 Transform:

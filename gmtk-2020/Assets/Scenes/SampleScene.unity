@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 16fb7197c4ff0c1428201f78df0a0f2a,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -555,6 +556,7 @@ GameObject:
   - component: {fileID: 1591759374}
   - component: {fileID: 1591759375}
   - component: {fileID: 1591759376}
+  - component: {fileID: 1591759377}
   m_Layer: 0
   m_Name: platzhalter mainguy
   m_TagString: Player
@@ -716,6 +718,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.41324416, y: 0.4793335}
   m_EdgeRadius: 0
+--- !u!114 &1591759377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591759369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1e91ac5e3ddcb4da9a6068c93e64c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634438835
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,16 +7,24 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
+    int i = 0;
+
 
     Vector2 movement;
+    Transform myTrans;
 
 
-   
-     // Update is called once per frame
+    private void Start()
+    {
+        myTrans = this.transform;
+    }
+
+    // Update is called once per frame
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
 
     }
 
@@ -25,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
+     
     }
 
 }

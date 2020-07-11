@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
+
+    public GameObject hitEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,9 @@ public class Destroy : MonoBehaviour
         if(collision.gameObject.tag.Equals("Bullet"))
         {
             Destroy(collision.gameObject);
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            Destroy(effect, 0.35f);
             Score.scoreAmount += 1;
         }
 

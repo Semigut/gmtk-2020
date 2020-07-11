@@ -26,13 +26,13 @@ public class DestroyContact : MonoBehaviour
             
         }
 
-        if (collision.gameObject.tag.Equals("Friend"))
+       /* if (collision.gameObject.tag.Equals("Friend"))
         {
             
             Destroy(collision.gameObject);
             Destroy(gameObject);
             
-        }
+        }*/
     }
 
 

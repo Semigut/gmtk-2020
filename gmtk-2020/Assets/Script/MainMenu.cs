@@ -16,4 +16,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("LevelHard");
     }
 
+    public void Mute()
+    {
+        AudioListener.pause = !AudioListener.pause;
+
+    }
+    
 }

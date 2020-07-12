@@ -14,7 +14,8 @@ public class FadeOut : MonoBehaviour
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
-        lifetime = Random.Range(5f, 15f);
+        lifetime = Random.Range(3f, 10f);
+        lifetime += Time.time;
     }
 
     // Update is called once per frame

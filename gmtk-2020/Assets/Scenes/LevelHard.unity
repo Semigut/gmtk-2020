@@ -2016,6 +2016,11 @@ MonoBehaviour:
     volume: 0.3
     pitch: 0
     source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: 0edcd0df27e609d4f951b3d6ee3ee558, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
 --- !u!4 &1548058084
 Transform:
   m_ObjectHideFlags: 0

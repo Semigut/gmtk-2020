@@ -21,5 +21,11 @@ public class MainMenu : MonoBehaviour
         AudioListener.pause = !AudioListener.pause;
 
     }
-    
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+   
 }

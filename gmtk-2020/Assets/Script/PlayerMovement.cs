@@ -46,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Leben.liveAmount == 0)
             {
+                FindObjectOfType<SoundManager>().Play("Dead");
                 Destroy(collision.gameObject);
                 GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
                 Destroy(gameObject);

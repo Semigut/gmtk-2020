@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
-    public AudioSource sound;
-    public AudioClip deadSound;
+  
 
     public GameObject hitEffect;
     // Start is called before the first frame update
     void Start()
     {
-        sound = GetComponent<AudioSource>();
+        
     }
     // Update is called once per frame
     void Update()
@@ -23,7 +22,7 @@ public class Destroy : MonoBehaviour
     {
         if(collision.gameObject.tag.Equals("Bullet"))
         {
-            sound.PlayOneShot(deadSound);
+            FindObjectOfType<SoundManager>().Play("EnemyDead");
             Destroy(collision.gameObject);
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);

@@ -223,8 +223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e334290c1a966fd46b73868b02d8f1ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 0}
-  deadSound: {fileID: 8300000, guid: 5f063836919e7b8429b5e1a5ead0f9db, type: 3}
   hitEffect: {fileID: 960455330962535535, guid: 8fb443d5dcc076a4e9e8344926b7e255,
     type: 3}
 --- !u!114 &1604082151668003842

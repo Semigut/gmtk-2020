@@ -1728,7 +1728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257244085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.53, y: 0.27, z: -23.832031}
+  m_LocalPosition: {x: 11.72, y: -0.65, z: -23.832031}
   m_LocalScale: {x: 1, y: 20.811426, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2349,8 +2349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634438835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.66, y: -0.16, z: -23.832031}
-  m_LocalScale: {x: 1, y: 20.414595, z: 1}
+  m_LocalPosition: {x: -15.58, y: -0.66, z: -23.832031}
+  m_LocalScale: {x: 0.9614639, y: 20.414595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -2430,7 +2430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642885179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.72, y: -0.08488673, z: 0}
+  m_LocalPosition: {x: 1.94, y: -0.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2658,6 +2658,11 @@ MonoBehaviour:
   - name: EnemyDead
     clip: {fileID: 8300000, guid: 5f063836919e7b8429b5e1a5ead0f9db, type: 3}
     volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: FriendDead
+    clip: {fileID: 8300000, guid: 5f063836919e7b8429b5e1a5ead0f9db, type: 3}
+    volume: 0.3
     pitch: 0
     source: {fileID: 0}
 --- !u!4 &1827087404

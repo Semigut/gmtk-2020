@@ -12,14 +12,14 @@ public class Control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreText = GetComponent<Text>();
-        finalScore = Score.scoreAmount;
+      //  scoreText = GetComponent<Text>();
+       // finalScore = Score.scoreAmount;
     }
 
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Your Score was: " + finalScore;
+     //   scoreText.text = "Your Score was: " + finalScore;
     }
 
     public void Restart()

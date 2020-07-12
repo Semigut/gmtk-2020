@@ -33,8 +33,8 @@ public class PlayerMovement : MonoBehaviour
     {
 
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+       
 
-     
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
                 GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 Destroy(effect, 0.35f);
-                SceneManager.LoadScene("EndScene");
+                SceneManager.LoadScene(3);
             
             }
         }

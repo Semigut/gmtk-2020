@@ -22,6 +22,7 @@ public class DestroyFriend : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Bullet"))
         {
+            FindObjectOfType<SoundManager>().Play("FriendDead");
             Destroy(collision.gameObject);
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);

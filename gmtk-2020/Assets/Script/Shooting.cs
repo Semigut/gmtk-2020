@@ -14,7 +14,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (i == 50)
+        if (i == 15)
         {
             Shoot();
             i = 0;

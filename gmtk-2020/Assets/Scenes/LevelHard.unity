@@ -1563,9 +1563,9 @@ PolygonCollider2D:
       - {x: 1.4699999, y: 2.8999999}
       - {x: 1.41, y: 2.8999999}
       - {x: 1.39, y: 2.87}
-      - {x: 0.71999997, y: 2.8899999}
-      - {x: 0.66999996, y: 2.8999999}
-      - {x: 0.61, y: 2.8999999}
+      - {x: 0.7102393, y: 2.8509579}
+      - {x: 0.7188022, y: 2.851197}
+      - {x: 0.570958, y: 2.8609576}
       - {x: 0.59, y: 2.87}
       - {x: -0.08, y: 2.8899999}
       - {x: -0.13, y: 2.8999999}
@@ -1728,7 +1728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257244085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.53, y: 0.27, z: -23.832031}
+  m_LocalPosition: {x: 11.69, y: -0.48, z: -23.832031}
   m_LocalScale: {x: 1, y: 20.811426, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2009,6 +2009,11 @@ MonoBehaviour:
   - name: EnemyDead
     clip: {fileID: 8300000, guid: 5f063836919e7b8429b5e1a5ead0f9db, type: 3}
     volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: FriendDead
+    clip: {fileID: 8300000, guid: 5f063836919e7b8429b5e1a5ead0f9db, type: 3}
+    volume: 0.3
     pitch: 0
     source: {fileID: 0}
 --- !u!4 &1548058084
@@ -2398,8 +2403,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634438835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.66, y: -0.16, z: -23.832031}
-  m_LocalScale: {x: 1, y: 20.414595, z: 1}
+  m_LocalPosition: {x: -15.45, y: -0.42, z: -23.832031}
+  m_LocalScale: {x: 0.7687855, y: 20.414595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4

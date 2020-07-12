@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -49,6 +50,8 @@ public class PlayerMovement : MonoBehaviour
                 GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 Destroy(effect, 0.35f);
+                SceneManager.LoadScene("EndScene");
+            
             }
         }
 

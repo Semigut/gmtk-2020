@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
+    x: 16
+    y: 53
     width: 1920
     height: 997
   m_ShowMode: 4
@@ -23,7 +23,7 @@ MonoBehaviour:
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 88
+  controlID: 60
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 20
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 21
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,8 +415,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 646
+    x: 16
+    y: 656
     width: 1530
     height: 353
   m_ViewDataDictionary: {fileID: 0}
@@ -439,14 +439,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/platzhalter
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Projects\gmtk-2020\gmtk-2020
+  m_LastProjectPath: C:\Users\PJF\Documents\GitHub\gmtk-2020\gmtk-2020
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 083a0000
-    m_LastClickedID: 14856
-    m_ExpandedIDs: 00000000003a000000ca9a3b
+    m_SelectedIDs: a63a0000
+    m_LastClickedID: 15014
+    m_ExpandedIDs: 000000009e3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000003a0000
+    m_ExpandedIDs: 000000009e3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,8 +551,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1531
-    y: 73
+    x: 1547
+    y: 83
     width: 388
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -589,17 +589,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
+    x: 16
+    y: 83
     width: 378
     height: 552
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: da380000
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff00390000
+      m_ExpandedIDs: c2f8ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -644,8 +644,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
-    y: 73
+    x: 395
+    y: 83
     width: 1150
     height: 552
   m_ViewDataDictionary: {fileID: 0}
@@ -659,9 +659,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 614.85614, y: 248.14445, z: -5.0375843}
+    m_Target: {x: 730.1477, y: 362.9547, z: -7.375}
     speed: 2
-    m_Value: {x: 614.85614, y: 248.14445, z: -5.0375843}
+    m_Value: {x: 730.1477, y: 362.9547, z: -7.375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 635.9974
+    m_Target: 607.3775
     speed: 2
     m_Value: 635.9974
   m_Ortho:
@@ -789,8 +789,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -575
     m_HBaseRangeMax: 575
-    m_VBaseRangeMin: -265.5
-    m_VBaseRangeMax: 265.5
+    m_VBaseRangeMin: -276
+    m_VBaseRangeMax: 276
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -807,11 +807,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1150
-      height: 531
+      height: 552
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 575, y: 265.5}
+    m_Translation: {x: 575, y: 276}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -819,9 +819,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -575
-      y: -265.5
+      y: -276
       width: 1150
-      height: 531
+      height: 552
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1150, y: 552}
